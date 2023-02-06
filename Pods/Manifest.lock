@@ -1,0 +1,31 @@
+PODS:
+  - CleverTap-iOS-SDK (3.10.0):
+    - SDWebImage (~> 5.1)
+  - Rudder (1.7.2)
+  - Rudder-CleverTap (1.0.3):
+    - CleverTap-iOS-SDK (~> 3.0)
+    - Rudder (~> 1.0)
+  - SDWebImage (5.14.0):
+    - SDWebImage/Core (= 5.14.0)
+  - SDWebImage/Core (5.14.0)
+
+DEPENDENCIES:
+  - Rudder
+  - Rudder-CleverTap
+
+SPEC REPOS:
+  trunk:
+    - CleverTap-iOS-SDK
+    - Rudder
+    - Rudder-CleverTap
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  CleverTap-iOS-SDK: 1e38a25eee5bdb3e525c5c8497504bc64b7d695d
+  Rudder: 473a45c60ca589c1f9bce568f4837c46a1b15de4
+  Rudder-CleverTap: f1429a62c26b6db1d4b0c7ea50b7bd8f907625e5
+  SDWebImage: 9e391cf38577742f501055dca17e4987f6713fe1
+
+PODFILE CHECKSUM: c65b146bcf86baa284f69af4fb788c0f36348e50
+
+COCOAPODS: 1.11.3

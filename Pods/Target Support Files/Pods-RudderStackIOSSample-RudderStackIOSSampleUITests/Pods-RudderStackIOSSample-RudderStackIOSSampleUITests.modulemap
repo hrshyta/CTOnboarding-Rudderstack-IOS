@@ -1,0 +1,6 @@
+framework module Pods_RudderStackIOSSample_RudderStackIOSSampleUITests {
+  umbrella header "Pods-RudderStackIOSSample-RudderStackIOSSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6C052DB294069DB00724EF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C052DA294069DB00724EF6 /* AppDelegate.m */; };
+		53C47727F960294BBDBA0C61 /* Pods_RudderStackIOSSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DDD3A928281C6180BE5438 /* Pods_RudderStackIOSSampleTests.framework */; };
+		BCFB3EB70F33B06D5761D8E4 /* Pods_RudderStackIOSSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D908D6EB6EC73FF5C269DA3 /* Pods_RudderStackIOSSample.framework */; };
+		D679224E2940A55F00370397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C052DA294069DB00724EF6 /* AppDelegate.m */; };
+		D679224F2940A56300370397 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C052E0294069DB00724EF6 /* ViewController.m */; };
 		D6C052DE294069DB00724EF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C052DD294069DB00724EF6 /* SceneDelegate.m */; };
-		D6C052E1294069DB00724EF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C052E0294069DB00724EF6 /* ViewController.m */; };
 		D6C052E4294069DB00724EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C052E2294069DB00724EF6 /* Main.storyboard */; };
 		D6C052E6294069DD00724EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C052E5294069DD00724EF6 /* Assets.xcassets */; };
 		D6C052E9294069DD00724EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C052E7294069DD00724EF6 /* LaunchScreen.storyboard */; };
@@ -17,6 +19,7 @@
 		D6C052F6294069DD00724EF6 /* RudderStackIOSSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C052F5294069DD00724EF6 /* RudderStackIOSSampleTests.m */; };
 		D6C05300294069DD00724EF6 /* RudderStackIOSSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C052FF294069DD00724EF6 /* RudderStackIOSSampleUITests.m */; };
 		D6C05302294069DD00724EF6 /* RudderStackIOSSampleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C05301294069DD00724EF6 /* RudderStackIOSSampleUITestsLaunchTests.m */; };
+		E06C9D1E7EDB17A4F7B031B2 /* Pods_RudderStackIOSSample_RudderStackIOSSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76724E7533A82993D117819F /* Pods_RudderStackIOSSample_RudderStackIOSSampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DDD3A928281C6180BE5438 /* Pods_RudderStackIOSSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudderStackIOSSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48249C27613893F435B34B95 /* Pods-RudderStackIOSSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudderStackIOSSample.release.xcconfig"; path = "Target Support Files/Pods-RudderStackIOSSample/Pods-RudderStackIOSSample.release.xcconfig"; sourceTree = "<group>"; };
+		76724E7533A82993D117819F /* Pods_RudderStackIOSSample_RudderStackIOSSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudderStackIOSSample_RudderStackIOSSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D908D6EB6EC73FF5C269DA3 /* Pods_RudderStackIOSSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudderStackIOSSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EECD4BBF8E9079DD559980 /* Pods-RudderStackIOSSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudderStackIOSSampleTests.release.xcconfig"; path = "Target Support Files/Pods-RudderStackIOSSampleTests/Pods-RudderStackIOSSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CEF00854938EF2A8EC09CFD /* Pods-RudderStackIOSSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudderStackIOSSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RudderStackIOSSampleTests/Pods-RudderStackIOSSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F4905A077CB77C61D052AE /* Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D67922502940B60E00370397 /* RudderStackIOSSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RudderStackIOSSample.entitlements; sourceTree = "<group>"; };
 		D6C052D6294069DB00724EF6 /* RudderStackIOSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RudderStackIOSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C052D9294069DB00724EF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6C052DA294069DB00724EF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +65,8 @@
 		D6C052FB294069DD00724EF6 /* RudderStackIOSSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RudderStackIOSSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C052FF294069DD00724EF6 /* RudderStackIOSSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RudderStackIOSSampleUITests.m; sourceTree = "<group>"; };
 		D6C05301294069DD00724EF6 /* RudderStackIOSSampleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RudderStackIOSSampleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		DB27DA5C66D5244026FD125C /* Pods-RudderStackIOSSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudderStackIOSSample.debug.xcconfig"; path = "Target Support Files/Pods-RudderStackIOSSample/Pods-RudderStackIOSSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E5C5245912AD579D02CF95F3 /* Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFB3EB70F33B06D5761D8E4 /* Pods_RudderStackIOSSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C47727F960294BBDBA0C61 /* Pods_RudderStackIOSSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06C9D1E7EDB17A4F7B031B2 /* Pods_RudderStackIOSSample_RudderStackIOSSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +104,8 @@
 				D6C052F4294069DD00724EF6 /* RudderStackIOSSampleTests */,
 				D6C052FE294069DD00724EF6 /* RudderStackIOSSampleUITests */,
 				D6C052D7294069DB00724EF6 /* Products */,
+				DFFADBAC70B44F150DF83A99 /* Pods */,
+				FB24E95D07891D9687ACA7F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +122,7 @@
 		D6C052D8294069DB00724EF6 /* RudderStackIOSSample */ = {
 			isa = PBXGroup;
 			children = (
+				D67922502940B60E00370397 /* RudderStackIOSSample.entitlements */,
 				D6C052D9294069DB00724EF6 /* AppDelegate.h */,
 				D6C052DA294069DB00724EF6 /* AppDelegate.m */,
 				D6C052DC294069DB00724EF6 /* SceneDelegate.h */,
@@ -136,6 +155,29 @@
 			path = RudderStackIOSSampleUITests;
 			sourceTree = "<group>";
 		};
+		DFFADBAC70B44F150DF83A99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB27DA5C66D5244026FD125C /* Pods-RudderStackIOSSample.debug.xcconfig */,
+				48249C27613893F435B34B95 /* Pods-RudderStackIOSSample.release.xcconfig */,
+				C4F4905A077CB77C61D052AE /* Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.debug.xcconfig */,
+				E5C5245912AD579D02CF95F3 /* Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.release.xcconfig */,
+				9CEF00854938EF2A8EC09CFD /* Pods-RudderStackIOSSampleTests.debug.xcconfig */,
+				96EECD4BBF8E9079DD559980 /* Pods-RudderStackIOSSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB24E95D07891D9687ACA7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D908D6EB6EC73FF5C269DA3 /* Pods_RudderStackIOSSample.framework */,
+				76724E7533A82993D117819F /* Pods_RudderStackIOSSample_RudderStackIOSSampleUITests.framework */,
+				16DDD3A928281C6180BE5438 /* Pods_RudderStackIOSSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C05305294069DD00724EF6 /* Build configuration list for PBXNativeTarget "RudderStackIOSSample" */;
 			buildPhases = (
+				37ACDF1EFB266821550E02E8 /* [CP] Check Pods Manifest.lock */,
 				D6C052D2294069DB00724EF6 /* Sources */,
 				D6C052D3294069DB00724EF6 /* Frameworks */,
 				D6C052D4294069DB00724EF6 /* Resources */,
+				CDF1AC1908417C7BEEF4E91E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C05308294069DD00724EF6 /* Build configuration list for PBXNativeTarget "RudderStackIOSSampleTests" */;
 			buildPhases = (
+				6CCF6E3DE813CE8C30DDD057 /* [CP] Check Pods Manifest.lock */,
 				D6C052ED294069DD00724EF6 /* Sources */,
 				D6C052EE294069DD00724EF6 /* Frameworks */,
 				D6C052EF294069DD00724EF6 /* Resources */,
@@ -178,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C0530B294069DD00724EF6 /* Build configuration list for PBXNativeTarget "RudderStackIOSSampleUITests" */;
 			buildPhases = (
+				4F58C021528E3788427ABCC1 /* [CP] Check Pods Manifest.lock */,
 				D6C052F7294069DD00724EF6 /* Sources */,
 				D6C052F8294069DD00724EF6 /* Frameworks */,
 				D6C052F9294069DD00724EF6 /* Resources */,
+				4D217D270D437DA04010F16B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,13 +308,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37ACDF1EFB266821550E02E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RudderStackIOSSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D217D270D437DA04010F16B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F58C021528E3788427ABCC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RudderStackIOSSample-RudderStackIOSSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CCF6E3DE813CE8C30DDD057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RudderStackIOSSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF1AC1908417C7BEEF4E91E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudderStackIOSSample/Pods-RudderStackIOSSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudderStackIOSSample/Pods-RudderStackIOSSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RudderStackIOSSample/Pods-RudderStackIOSSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6C052D2294069DB00724EF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C052E1294069DB00724EF6 /* ViewController.m in Sources */,
-				D6C052DB294069DB00724EF6 /* AppDelegate.m in Sources */,
+				D679224F2940A56300370397 /* ViewController.m in Sources */,
+				D679224E2940A55F00370397 /* AppDelegate.m in Sources */,
 				D6C052EC294069DD00724EF6 /* main.m in Sources */,
 				D6C052DE294069DB00724EF6 /* SceneDelegate.m in Sources */,
 			);
@@ -439,11 +589,20 @@
 		};
 		D6C05306294069DD00724EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB27DA5C66D5244026FD125C /* Pods-RudderStackIOSSample.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RudderStackIOSSample/RudderStackIOSSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK667QAT5A;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RudderStackIOSSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -456,6 +615,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshitha.RudderStackIOSSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -465,11 +625,20 @@
 		};
 		D6C05307294069DD00724EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48249C27613893F435B34B95 /* Pods-RudderStackIOSSample.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RudderStackIOSSample/RudderStackIOSSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK667QAT5A;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RudderStackIOSSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,6 +651,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshitha.RudderStackIOSSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -491,6 +661,7 @@
 		};
 		D6C05309294069DD00724EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEF00854938EF2A8EC09CFD /* Pods-RudderStackIOSSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +679,7 @@
 		};
 		D6C0530A294069DD00724EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EECD4BBF8E9079DD559980 /* Pods-RudderStackIOSSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -525,30 +697,36 @@
 		};
 		D6C0530C294069DD00724EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F4905A077CB77C61D052AE /* Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshitha.RudderStackIOSSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = RudderStackIOSSample;
 			};
 			name = Debug;
 		};
 		D6C0530D294069DD00724EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C5245912AD579D02CF95F3 /* Pods-RudderStackIOSSample-RudderStackIOSSampleUITests.release.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshitha.RudderStackIOSSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = RudderStackIOSSample;
 			};
 			name = Release;
